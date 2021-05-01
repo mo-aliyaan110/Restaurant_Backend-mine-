@@ -25,12 +25,12 @@ app.use(morgan('tiny',{
     stream:fs.createWriteStream('mylogs.logs', {flags:'a'})
 }))
 
-// to see the homepage i.e / or when first time you start the server
-app.get('/', (req,res) =>{
+// // to see the homepage i.e / or when first time you start the server
+// app.get('/', (req,res) =>{
     
-        res.send("<div><a href='http://localhost:7500/location' target='_blank' > Location </a> <br> <br> <a href='http://localhost:7500/cuisine' target='_blank'> Cuisine </a> <br/><br/> <a href='http://localhost:7500/mealtype' target='_blank'> Mealtype </a> <br/><br/> <a href='http://localhost:7500/restaurant' target='_blank'> Restaurant </a>   </div>")
+//         res.send("<div><a href='http://localhost:7500/location' target='_blank' > Location </a> <br> <br> <a href='http://localhost:7500/cuisine' target='_blank'> Cuisine </a> <br/><br/> <a href='http://localhost:7500/mealtype' target='_blank'> Mealtype </a> <br/><br/> <a href='http://localhost:7500/restaurant' target='_blank'> Restaurant </a>   </div>")
     
-})
+// })
 
 // to see all the cities
 app.get('/location', (req,res) =>{

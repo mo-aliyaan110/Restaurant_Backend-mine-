@@ -1051,3 +1051,6 @@ GET /location 304 - - 53.501 ms
 GET /location 200 1377 - 64.355 ms
 GET /location 200 2 - 55.653 ms
 GET /location 200 1377 - 56.926 ms
+GET / 304 - - 4.979 ms
+GET /favicon.ico 404 150 - 6.456 ms
+GET /restaurant 200 5636 - 54.690 ms
