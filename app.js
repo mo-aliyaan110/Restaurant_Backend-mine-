@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express();
-const port = process.env.port || 7500;
+const port = process.env.PORT || 7500;
 const mongo = require('mongodb');
 const mongoClient = mongo.MongoClient;
 const mongoUrl = 'mongodb+srv://aliyaan:@123@cluster0.ktoi9.mongodb.net/Edureka?retryWrites=true&w=majority';
