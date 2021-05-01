@@ -1,0 +1,36 @@
+{
+  "name": "noderestaurant",
+  "version": "1.0.0",
+  "description": "This is the backend part of our zomato alike app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "Node",
+    "mongodb",
+    "express",
+    "cors",
+    "chalk",
+    "morgan",
+    "fs",
+    "os",
+    "nodemon"
+  ],
+  "author": "Mohammed Aliyaan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chalk": "^4.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "mongodb": "^3.6.6",
+    "morgan": "^1.10.0",
+    "node": "^16.0.0",
+    "nodemon": "^2.0.7",
+    "os": "^0.1.1"
+  }
+}
