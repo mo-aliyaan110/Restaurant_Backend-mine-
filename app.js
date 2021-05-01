@@ -5,7 +5,7 @@ const mongo = require('mongodb');
 const mongoClient = mongo.MongoClient;
 const mongoUrl = 'mongodb+srv://aliyaan:@123@cluster0.ktoi9.mongodb.net/Edureka?retryWrites=true&w=majority';
 const cors = require('cors');
-const dbName = 'FinalApp';
+const dbName = 'Edureka';
 const chalk = require('chalk');
 const morgan = require('morgan');
 const fs = require('fs');

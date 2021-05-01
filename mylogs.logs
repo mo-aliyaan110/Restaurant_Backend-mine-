@@ -1045,3 +1045,9 @@ GET /mealtype 304 - - 60.436 ms
 GET /location 304 - - 65.302 ms
 GET /location 304 - - 59.121 ms
 GET /mealtype 304 - - 302.835 ms
+GET /restaurant 200 2 - 61.931 ms
+GET /mealtype 304 - - 48.007 ms
+GET /location 304 - - 53.501 ms
+GET /location 200 1377 - 64.355 ms
+GET /location 200 2 - 55.653 ms
+GET /location 200 1377 - 56.926 ms
